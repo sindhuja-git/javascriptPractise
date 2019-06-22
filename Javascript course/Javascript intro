@@ -1,0 +1,15 @@
+Javascript :
+
+A light weight, cross platform, object oriented computer programming language
+- one of 3 core technologies of web dev
+    - client side - used in  browser
+    -Server-side - Node.Javascript
+Dynamic effects and interactivity
+
+
+
+Html - noun - <p>
+CSS - adjective - p{color:red}
+JS - Verb - p.hide();
+
+ES5   ->   es6/es2015   ->  ES7/ES2016  ->  es8/es2017
