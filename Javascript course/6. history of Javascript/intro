@@ -1,0 +1,41 @@
+1995 - released - called livescript - immediately changed to javascript to attract java developers. Nothing to do eith java.
+
+1997 - submitted to ECMA INTERNATIONAL to create a standard so became ECMA SCRIPT1 
+
+                ECMASCRIPT: The language standard
+                Javascript: the language in practice
+
+2009 - ES5 released - lots of new features - it took may years for browsers to implement all the changes
+
+June 2015 - ES6/ES2015 (ECMASCRIPT 2015) was a BIGGEST update to the language ever! Big deal for dev community
+
+2015 - changed to a release cycle
+
+2016/2017/2018/2019/.. Release of ES2016,ES2017, ES2018, ES2019
+
+
+
+ES5 - Fully supported by all browsers
+ES62015/ES72016/ES82017 
+    - No support for old browsers
+    - Can use most features in production with transpiling and polyfilling(converting to ES5)
+
+
+    ES6 Compatibility page
+
+
+ES5 - 
+
+        FUNDAMENTALS
+        How the lang works
+        DOM manipulation
+        Advanced language features
+        Huge real project
+
+ES6+ - 
+
+        ES6/ES2015 introduction
+        Asynchronous Javascript
+        AJAX and API calls
+        Modern dev setups(webpack and babel)
+        Huge real project
