@@ -1,0 +1,40 @@
+/*****************************
+* Boolean logic
+*/
+/*
+
+
+        VAR A
+Var B   AND   TRUE  FALSE
+        TRUE  TRUE  FALSE                       
+        FALSE FALSE FALSE
+
+        AND (&&) => TRUE if all TRUE
+        OR(||) => TRUE if one is TRUE
+        NOT(!) => inverts TRUE/FALSE
+
+
+
+        VAR A
+Var B   OR    TRUE  FALSE
+        TRUE  TRUE  TRUE                       
+        FALSE TRUE  FALSE
+
+        AND (&&) => TRUE if all TRUE
+        OR(||) => TRUE if one is TRUE
+        NOT(!) => inverts TRUE/FALSE
+
+
+var firstName = 'John';
+var age = 20;
+
+if (age < 13) {
+    console.log(firstName + ' is a boy.');
+} else if (age >= 13 && age < 20) {
+    console.log(firstName + ' is a teenager.');
+} else if (age >= 20 && age < 30) {
+    console.log(firstName + ' is a young man.');
+} else {
+    console.log(firstName + ' is a man.');
+}
+*/

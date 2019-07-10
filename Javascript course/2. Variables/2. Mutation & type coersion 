@@ -1,0 +1,24 @@
+Type coercion:
+
+
+var firstName = "John";
+var lastName = "Smith"
+var age = 28
+var fullAge = true
+var job;
+
+*Joining strings by itself without changing number data type
+
+console.log(firstName + " " +lastName+ " " + age + " " + fullAge + " " + job + " "  );
+
+
+
+
+Variable Mutation:
+
+var firstName = "John";
+var lastName = "Smith"
+var age = 28  //age=28
+
+age = "twenty eight"  //age="twenty eight"
+

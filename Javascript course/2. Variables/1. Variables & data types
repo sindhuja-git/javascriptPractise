@@ -1,0 +1,15 @@
+store and use it over and over
+
+var firstName = 'Sindhu';
+
+Primitive data types :
+
+1. Number - floating  point numbers,for decimals and integers
+2. String - text
+3. boolean - logical-true/false
+4. undefined - Data type of a variable that do not have a value yet
+5. Null - Non-existent
+ * Dynamic typing  - data types automatically assigned without giving type
+ * Camel Case is preffered
+ * Starting variables with _,$ or character
+ * No reserved key words a variables 
