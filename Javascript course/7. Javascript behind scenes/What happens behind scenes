@@ -1,0 +1,6 @@
+Our code - javascript engine that executes js code - JS core, spider monkey and many more
+
+                        Javascript Engine
+
+                                 Abstract syntax tree                               Machine code
+Our code -              parser  ----------------------> Conversion to Machine Code ----------------> Code runs
