@@ -1,0 +1,48 @@
+stored in execution context object
+
+Regular function call - this keyword poinmts to global object
+method call - this variable points to the object calling the method
+this keyword i snot assigned a value until a function where it is defined is actually called.
+
+
+REGULAR FUNCTION CALL ALWAYS , THIS IS ALWAYS POINTED TO WINDOW
+THIS REFERS TO OBJECT THAT CALLED THE METHOD, this eill be assigned a value when object calls a method
+
+/////////////////////////////////////
+// Lecture: The this keyword
+
+/*
+//console.log(this);
+
+calculateAge(1985);
+
+function calculateAge(year) {
+    console.log(2016 - year);
+    console.log(this);
+}
+
+var john = {
+    name: 'John',
+    yearOfBirth: 1990,
+    calculateAge: function() {
+        console.log(this);
+        console.log(2016 - this.yearOfBirth);
+        
+        function innerFunction() {
+            console.log(this);
+        }
+        innerFunction();
+    }
+}
+
+john.calculateAge();
+
+var mike = {
+    name: 'Mike',
+    yearOfBirth: 1984
+};
+
+
+mike.calculateAge = john.calculateAge;////////////important
+mike.calculateAge();
+*/

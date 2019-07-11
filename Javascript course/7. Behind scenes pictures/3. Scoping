@@ -1,0 +1,49 @@
+
+/////////////////////////////////////
+// Lecture: Scoping
+
+- Scoping answers the question - "Where can we accesss a certain variable?"
+- Each new function creates a scope - the space/environment, in which thr variables it defines are accesible
+- Lexical Scoping - a function that is lexically withing the another function gets access to teh scope of outer function
+
+A lexical scope in Javascript means that a variable defined outside a function can be accessible inside another
+ function defined after the variable declaration. ... This is called due to lexical scoping in javascript.
+
+/*
+// First scoping example
+var a = 'Hello!';
+first();
+
+function first() {
+    var b = 'Hi!';
+    second();
+
+    function second() {
+        var c = 'Hey!';
+        console.log(a + b + c);
+    }
+}
+
+
+// Example to show the differece between execution stack and scope chain
+var a = 'Hello!';
+first();
+
+function first() {
+    var b = 'Hi!';
+    second();
+
+    function second() {
+        var c = 'Hey!';
+        third()
+    }
+}
+
+function third() {
+    var d = 'John';
+    //console.log(c);// c is not defined
+    console.log(a+d);
+}
+*/
+
+cox this is not in scope chain
