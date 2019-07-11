@@ -1,0 +1,52 @@
+Our code - javascript engine that executes js code - JS core, spider monkey and many more
+
+                        Javascript Engine
+
+                                 Abstract syntax tree                               Machine code
+Our code -              parser  ----------------------> Conversion to Machine Code ----------------> Code runs
+
+
+
+
+all js should run in evironment - which stores properties or variables and consider a box whre our code is evaluated and executed - 
+
+Global execution context is not inside any function - associated with global object - automatically assigned to window object 
+
+
+when a function is called, it has its own execution context
+
+ function definitions are still global exacution context
+
+
+ Execution context in deatil - 
+ 
+        execution context object 
+
+        -------------------------
+        variable object(VO)
+
+        Scope Chain
+
+        "This variable"
+
+function called - Creation phase -\
+
+1. creation of VO-
+
+        - argument object is created containg all arguments
+        - code scanned for function declarations: for each function, a property is created in teh 
+           variable object, pointimg to the function
+        - code scanned for variable declarations: for each variable, a propert is created in variable object,
+            and set to undefined
+2. CREATION OF SCOPE Chain
+3. Determine the value of 'THIS' Variable
+
+
+
+
+exection pahse -
+
+code run line by line
+
+
+

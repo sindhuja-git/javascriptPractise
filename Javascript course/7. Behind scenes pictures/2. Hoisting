@@ -1,0 +1,46 @@
+///////////////////////////////////////
+// Lecture: Hoisting
+
+
+//fucntions
+calculateAge(1989);
+function calculateAge(year) {
+    console.log(2016 - year)
+}
+//27
+
+
+//retirement(1990);
+
+var retirement = function(year) {
+    console.log(65 - (2016 - year))
+}
+//retirement is not a function
+
+//Hoisting works for function declarations not function expressions
+
+
+//variables
+
+//code scanned for variable declarations: for each variable, a propert is created in variable object, and set to undefined
+console.log(age)//undefined
+var age = 23;
+console.log(age)//23
+
+function foo() {
+    console.log(age)//undefined
+    var age = 65;
+    console.log(age)//65
+}
+foo();
+console.log(age)//23
+
+
+//Biggest takeaway - function declaration before we declare them in our code
+
+
+
+
+
+
+
