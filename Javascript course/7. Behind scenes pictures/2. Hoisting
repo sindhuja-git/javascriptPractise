@@ -41,7 +41,7 @@ console.log(age)//23
 
 
 | Card # | Details |
-| ------ | ---------------------------------------------------------------------------------------------------------------  |
+| ------ | -------------------------------------------------------------------  |
 | 821  | Recommendation Line, recommendation Bubble, inventory now not matching |
 | 820 | Change Inventory Reconciliation Label  |
 | 852| Graph Lines not matching up to expected |
