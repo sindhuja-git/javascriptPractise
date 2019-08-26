@@ -39,10 +39,9 @@ console.log(age)//23
 //Biggest takeaway - function declaration before we declare them in our code
 
 
-
 | Card # | Details |
 | ------ | ---------------------------------------------------------------------------------------------------------------  |
-| 821  | Recommendation Line, recommendation Bubble, inventory now not matching |
+| 821 | Recommendation Line, recommendation Bubble, inventory now not matching |
 | 820 | Change Inventory Reconciliation Label  |
 | 852| Graph Lines not matching up to expected |
 | 647| Diamond Colors |
