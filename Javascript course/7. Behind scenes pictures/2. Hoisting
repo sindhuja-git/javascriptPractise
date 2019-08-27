@@ -39,32 +39,6 @@ console.log(age)//23
 //Biggest takeaway - function declaration before we declare them in our code
 
 
-| Card # | Details |
-| ------ | ---------------------------------------------------------------------------------------------------------------  |
-|   821  | Recommendation Line, recommendation Bubble, inventory now not matching |
-| 820 | Change Inventory Reconciliation Label  |
-| 852| Graph Lines not matching up to expected |
-| 647| Diamond Colors |
-| 786| run KIX model when load is delivered |
-| 874 | show "model is running" feedback in UI when model is triggered from delivered load |
-| 934| recommendation line slopes up incorrectly |
-| 868 | Bug? RAMP and other graph accuracy issues reported by RCMs need troubleshooting |
-| 962| BUG: G-2 Producers-Harvest Dairy Recommendations Not Rounded  |
-| 914| Add Inventory Minimum to Cal's End Point |
-| 888| Diamond Color not changing on graph after delivered without manual refresh |
-| 1008| Predict inventory with 2.0 or less reading |
-| 864| Incorporate customer bagging into CIX model and Graph |
-| 545| implement smooth load distribution before closed gate hours |
-| 695| KIX Model breaks when closed first day scenario |
-| 1024| use new predicted load delivery time logic in SF components |
-
-
-
-
-    | Command | Description |
-    | --- | --- |
-    | git status | List all new or modified files |
-    | git diff | Show file differences that haven't been staged |
 
 
 
