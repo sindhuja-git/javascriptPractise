@@ -46,3 +46,5 @@ var mike = {
 mike.calculateAge = john.calculateAge;////////////important
 mike.calculateAge();
 */
+
+/////Functions - methods attached to an object
