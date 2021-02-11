@@ -2,6 +2,18 @@ Javascript :
 
 A light weight, cross platform, object oriented computer programming language
 - high level, object oreinted, multi paradigm programming language 
+
+programming language - instructs computer
+object oriented - mostly based on objects for storing data
+multi paradigm - so flexible and versatile. Can use different styles of programming
+high level - 
+
+Role of JS in web development:
+ 3 coer - HTML, CSS, JS
+ HTML - content
+ CSS - Presentation
+ JS - Add dynamic and interactive effects to web page
+ 
 - one of 3 core technologies of web dev
     - client side - used in  browser
     -Server-side - Node.Javascript
@@ -13,4 +25,11 @@ Html - noun - <p>
 CSS - adjective - p{color:red}
 JS - Verb - p.hide();
 
-ES5   ->   es6/es2015   ->  ES7/ES2016  ->  es8/es2017.
+Modern js frameworks - React, Angular, Vue
+JS can run outside web browser
+BACKEND - node js - doesnt need web browser just runs on the web server and talk to databases
+JS - native mobile applications taking to next level
+
+
+ES - ECMA Script. After ES6 - modern JS
+ES5   ->   es6/es2015   ->  ES7/ES2016  ->  es8/es2017 => es9/ES2019 => es10/ES2020
