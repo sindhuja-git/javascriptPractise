@@ -1,5 +1,9 @@
 store and use it over and over
 
+variables are the boxes and values are what we store in a box. It holds data(value) and very important as if it is changed at one place, it changes throughout the 
+file.
+
+Values have differenet data types - primitive and object
 var firstName = 'Sindhu';
 
 Primitive data types :
@@ -7,9 +11,41 @@ Primitive data types :
 1. Number - floating  point numbers,for decimals and integers
 2. String - text
 3. boolean - logical-true/false
-4. undefined - Data type of a variable that do not have a value yet
+4. undefined - Data type of a variable that do not have a value yet. Empty variable holds a value of undefined
 5. Null - Non-existent
- * Dynamic typing  - data types automatically assigned without giving type
+6. Symbom(ES2015) - VALUE THAT IS UNIQUE
+7. BIGINT - Larger integers than number tupr can hold
+
+
+  Do not have to manually define the data type. data types automatically assigned without giving type
+ VALUE HAS TYPE NOT VARIABLE
+ 
+* Dynamic typing  - we change change the type of the variable
+
+typeof Null = object -> error in JS not addressed
+
+Eg - let hello ='test'
+      hello =35
+      // put book in a box and then remove book and put phone
  * Camel Case is preffered
  * Starting variables with _,$ or character
  * No reserved key words a variables 
+ 
+ let and const are 2 ways to declare variables
+ 
+ const is constant value
+ let is something that can be changed later
+ 
+ const is immutable - const job; // error that we need an initial value
+ 
+ let is mutable. We can change the value later
+     let job = 'test'
+     job = 'changed'
+     it is mutable
+ 
+  var is old
+  
+  LET and const are introduced in ECMA 15
+ 
+ ALWAYS use const - good practice
+ DO NOT USE VAR
